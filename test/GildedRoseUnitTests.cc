@@ -1,3 +1,5 @@
+// Copyright 2020 Seaborn Lee
+
 #include <gtest/gtest.h>
 #include <ApprovalTests.hpp>
 
