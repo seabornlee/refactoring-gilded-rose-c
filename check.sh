@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cd cmake-build-debuggp && cmake .. && make && cd ..
+cd cmake-build-debug && cmake .. && make && cd ..
