@@ -5,7 +5,7 @@
 
 using namespace ApprovalTests;
 
-TEST(AcceptanceTest1, itsLockedDown) {
+TEST(AcceptanceTest3, itsLockedDown) {
     testing::internal::CaptureStdout();
 
     // add your test code here
