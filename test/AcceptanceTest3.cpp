@@ -10,7 +10,7 @@ print_item(Item *item) {
     return printf("%s, %d, %d\n", item->name, item->sellIn, item->quality);
 }
 
-TEST(AcceptanceTest1, itsLockedDown) {
+TEST(AcceptanceTest3, itsLockedDown) {
     testing::internal::CaptureStdout();
 
     Item items[9];
