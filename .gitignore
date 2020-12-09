@@ -136,3 +136,4 @@ fabric.properties
 .idea/
 *.received.txt
 src/.scannerwork/
+src/sonar-project.properties
