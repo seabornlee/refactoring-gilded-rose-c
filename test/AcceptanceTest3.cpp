@@ -18,15 +18,15 @@ TEST(AcceptanceTest3, itsLockedDown) {
     int day;
     int index;
 
-    init_item(items + last++, "+5 Dexterity Vest", 10, 20);
-    init_item(items + last++, "Aged Brie", 2, 0);
-    init_item(items + last++, "Elixir of the Mongoose", 5, 7);
+    init_item(items + last++, "+5 Dexterity Vest", 3, 20);
+    init_item(items + last++, "Aged Brie", 2, 41);
+    init_item(items + last++, "Elixir of the Mongoose", 5, 5);
     init_item(items + last++, "Sulfuras, Hand of Ragnaros", 0, 80);
     init_item(items + last++, "Sulfuras, Hand of Ragnaros", -1, 80);
     init_item(items + last++, "Backstage passes to a TAFKAL80ETC concert", 15, 20);
     init_item(items + last++, "Backstage passes to a TAFKAL80ETC concert", 10, 49);
-    init_item(items + last++, "Backstage passes to a TAFKAL80ETC concert", 5, 49);
-    // this Conjured item doesn't yet work properly
+    init_item(items + last++, "Backstage passes to a TAFKAL80ETC concert", 5, 42);
+    init_item(items + last++, "Backstage passes to a TAFKAL80ETC concert", 1, 20);
     init_item(items + last++, "Conjured Mana Cake", 3, 6);
 
     puts("OMGHAI!");
