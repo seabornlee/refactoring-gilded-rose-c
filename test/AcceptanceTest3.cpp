@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include <ApprovalTests.hpp>
+#include <AgedBrie.h>
 #include "../src/GildedRose.h"
 #include "Item.h"
 #include "BackstagePass.h"
@@ -21,7 +22,8 @@ TEST(AcceptanceTest3, itsLockedDown) {
     int index;
 
     items[last++] = newItem("+5 Dexterity Vest", 10, 20);
-    items[last++] = newItem("Aged Brie", 2, 0);
+//    items[last++] = newItem("Aged Brie", 2, 0);
+    items[last++] = (Item *) newAgedBrie(2, 0);
     items[last++] = newItem("Elixir of the Mongoose", 5, 7);
     items[last++] = (Item *) newSulfuras(0, 80);
     items[last++] = (Item *) newSulfuras(-1, 80);

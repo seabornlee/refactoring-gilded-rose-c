@@ -29,12 +29,7 @@ void updateQualityAfterExpired(Item *item) {
 }
 
 void item_updateQuality(Item *item) {
-    if (!isAgedBrie(item) && !isBackstagePass(item) && !isSulfuras(item)) {
-        decreaseQuality(item);
-        return;
-    }
-
-    increaseQuality(item);
+    decreaseQuality(item);
 }
 
 void updateSellIn(Item *item) {
